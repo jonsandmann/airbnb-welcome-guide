@@ -11,8 +11,8 @@ export function WelcomeGuide() {
         <div className="flex justify-center mb-4">
           <img src={cactusIcon} alt="Cactus" className="w-16 h-16" style={{ filter: 'invert(27%) sepia(24%) saturate(1265%) hue-rotate(88deg) brightness(95%) contrast(91%)' }} />
         </div>
-        <h1 className="mb-2 text-forest font-bold">Welcome to Your Stay</h1>
-        <p className="text-sage-dark">We're happy to have you here</p>
+        <h1 className="mb-2 text-black font-bold">Welcome to Your Stay</h1>
+        <p className="text-black">We're happy to have you here</p>
       </div>
 
       <Separator className="mb-8" />
@@ -49,7 +49,7 @@ export function WelcomeGuide() {
         {/* House Tab */}
         <TabsContent value="house" className="space-y-8">
           <Section icon={<Book size={24} />} title="House Rules">
-            <ul className="space-y-3 text-sage-dark">
+            <ul className="space-y-3 text-black">
               <li>• No smoking inside the property</li>
               <li>• Maximum occupancy: 4 guests</li>
               <li>• No parties or events</li>
@@ -61,57 +61,57 @@ export function WelcomeGuide() {
 
           <Section icon={<Home size={24} />} title="Parking & Garage">
             <InfoRow label="Parking" value="2 Car Garage + Street" />
-            <p className="text-sage-dark text-sm mt-3">
+            <p className="text-black text-sm mt-3">
               Use the street parking in front of the house and the garage. No overnight parking allowed in guest spaces.
             </p>
           </Section>
 
           <Section title="Thermostats">
-            <p className="text-sage-dark mb-2">
+            <p className="text-black mb-2">
               Google Nest thermostats control heating and cooling. Slide your finger along the right side to adjust temperature, then tap the right side to confirm your selection. Please don't run AC with doors/windows open.
             </p>
           </Section>
 
           <Section title="Electric Scooters">
-            <p className="text-sage-dark mb-2">Two scooters are available for guest use</p>
+            <p className="text-black mb-2">Two scooters are available for guest use</p>
             <InfoRow label="Lock Code" value="8569" />
           </Section>
 
           <Section title="TV & Streaming">
-            <p className="text-sage-dark mb-2">
+            <p className="text-black mb-2">
               All TVs use Roku. Inputs automatically switch to Roku. You can log into your streaming services, and credentials will be cleared after your checkout date.
             </p>
           </Section>
 
           <Section title="Linens & Extras">
-            <p className="text-sage-dark text-sm mb-1">• Extra blankets available in guest rooms</p>
-            <p className="text-sage-dark text-sm">• Extra linens available in both full bathrooms</p>
+            <p className="text-black text-sm mb-1">• Extra blankets available in guest rooms</p>
+            <p className="text-black text-sm">• Extra linens available in both full bathrooms</p>
           </Section>
 
           <Section title="Amenities">
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
-                <p className="text-sage-dark">• Community Pool</p>
-                <p className="text-sage-dark">• Hot Tub</p>
-                <p className="text-sage-dark">• Dog Area</p>
-                <p className="text-sage-dark">• Elevator</p>
+                <p className="text-black">• Community Pool</p>
+                <p className="text-black">• Hot Tub</p>
+                <p className="text-black">• Dog Area</p>
+                <p className="text-black">• Elevator</p>
               </div>
               <div className="space-y-2">
-                <p className="text-sage-dark">• Air Conditioning</p>
-                <p className="text-sage-dark">• Full Kitchen</p>
-                <p className="text-sage-dark">• Washer & Dryer</p>
-                <p className="text-sage-dark">• WiFi</p>
+                <p className="text-black">• Air Conditioning</p>
+                <p className="text-black">• Full Kitchen</p>
+                <p className="text-black">• Washer & Dryer</p>
+                <p className="text-black">• WiFi</p>
               </div>
             </div>
           </Section>
 
           <Section title="Trash & Recycling">
-            <p className="text-sage-dark">Located to the left of the community area</p>
+            <p className="text-black">Located to the left of the community area</p>
           </Section>
 
           <Section title="Checkout">
-            <p className="text-sage-dark mb-3 font-medium">Before you leave:</p>
-            <ul className="space-y-2 text-sage-dark text-sm">
+            <p className="text-black mb-3 font-medium">Before you leave:</p>
+            <ul className="space-y-2 text-black text-sm">
               <li>• Leave beds unmade</li>
               <li>• Rinse and load the dishwasher</li>
               <li>• Empty fridge and cupboards of perishable food items</li>
@@ -120,7 +120,7 @@ export function WelcomeGuide() {
               <li>• Return house key and garage door opener to console table</li>
               <li>• Message the host to confirm checkout</li>
             </ul>
-            <p className="text-sage-dark text-sm mt-4 font-medium">
+            <p className="text-black text-sm mt-4 font-medium">
               Thank you for leaving the space tidy!
             </p>
           </Section>
@@ -285,7 +285,7 @@ export function WelcomeGuide() {
             <InfoRow label="Host" value="Jonathan Sandmann" />
             <InfoRow label="Phone" value="+1 (229) 560-8291" />
             <InfoRow label="Email" value="jonsandmann@protonmail.com" />
-            <p className="text-sage-dark mt-4 text-sm">
+            <p className="text-black mt-4 text-sm">
               Available for questions and support during your stay
             </p>
           </Section>
@@ -293,7 +293,7 @@ export function WelcomeGuide() {
           <Section title="Building Information">
             <InfoRow label="Elevator" value="Working phone available" />
             <InfoRow label="Last Serviced" value="April 2025" />
-            <p className="text-sage-dark mt-4 text-sm">
+            <p className="text-black mt-4 text-sm">
               The elevator is regularly maintained and equipped with an emergency phone
             </p>
           </Section>
@@ -303,7 +303,7 @@ export function WelcomeGuide() {
       <Separator className="my-12" />
 
       {/* Footer */}
-      <div className="text-center text-sage-dark text-sm">
+      <div className="text-center text-black text-sm">
         <p>Thank you for choosing our home.</p>
         <p className="mt-2">We hope you have a wonderful stay!</p>
       </div>
@@ -324,7 +324,7 @@ function Section({
     <div className="space-y-4">
       <div className="flex items-center gap-3">
         {icon && <div className="text-forest">{icon}</div>}
-        <h2 className="text-forest">{title}</h2>
+        <h2 className="text-black">{title}</h2>
       </div>
       <div className="pl-0 md:pl-9">{children}</div>
     </div>
@@ -334,8 +334,8 @@ function Section({
 function InfoRow({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex justify-between py-2 border-b border-beige-dark">
-      <span className="text-sage-dark">{label}</span>
-      <span className="text-forest font-medium">{value}</span>
+      <span className="text-black">{label}</span>
+      <span className="text-black font-medium">{value}</span>
     </div>
   );
 }
@@ -352,10 +352,10 @@ function Recommendation({
   return (
     <div className="py-3 border-b border-beige-dark last:border-0">
       <div className="flex justify-between items-start mb-1">
-        <span className="text-forest font-medium">{name}</span>
-        <span className="text-sage text-sm">{distance}</span>
+        <span className="text-black font-medium">{name}</span>
+        <span className="text-gray-600 text-sm">{distance}</span>
       </div>
-      <p className="text-sage-dark text-sm">{description}</p>
+      <p className="text-gray-600 text-sm">{description}</p>
     </div>
   );
 }
